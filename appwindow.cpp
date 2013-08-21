@@ -46,7 +46,7 @@ int main( int argc, char* argv[] ) {
   //use SDL_SetVideoMode as in 1.2.
   screen = SDL_GetWindowSurface( window );
 
-  //this is self explanatory
+  //this is self explanatory... our main event loop
 
   displayedImage = loadImage( "helloworld.bmp" );
 
